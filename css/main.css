@@ -17,6 +17,19 @@
   align-items: center;
 }
 
+h1{
+  font-size: 30px;
+}
+
 h2{
+  font-size: 30px;
+}
+
+#intero, #scontato, #totale{
   font-size: 40px;
+  transition: 1s;
+}
+
+#intero:hover, #scontato:hover, #totale:hover{
+  transform: scale(2);
 }
