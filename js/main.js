@@ -29,3 +29,8 @@ if(age>=65) {
   boxsconto.innerHTML = "0€";
   boxtot.innerHTML = price + "€";
 }
+
+// function
+function myFunction() {
+  alert("Grazie per aver scelto Italo! Buon Viaggio!");
+}

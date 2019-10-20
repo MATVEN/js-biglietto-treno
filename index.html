@@ -4,12 +4,37 @@
     <meta charset="utf-8">
     <title>Biglietto treno</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
 
     <div class="container">
 
-      <h1>Benvenuto su Italotreno</h1>
+      <h1><strong>Benvenuto su Italotreno</strong>
+
+        <form class="form-inline position">
+          <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Da</label>
+          <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+            <option selected></option>
+            <option value="1">Firenze</option>
+            <option value="2">Milano</option>
+            <option value="3">Napoli</option>
+            <option value="5">Roma</option>
+            <option value="5">Torino</option>
+            <option value="6">Venezia</option>
+          </select>
+          <label class="my-1 mr-2" for="inlineFormCustomSelectPref">a</label>
+          <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+            <option selected></option>
+            <option value="1">Firenze</option>
+            <option value="2">Milano</option>
+            <option value="3">Napoli</option>
+            <option value="5">Roma</option>
+            <option value="5">Torino</option>
+            <option value="6">Venezia</option>
+          </select>
+        </form>
+
 
       <h2>Prezzo intero</h2>
       <div id="intero">
@@ -23,6 +48,7 @@
       <div id="totale">
       </div>
 
+      <button type="button" onclick="myFunction()" class="btn btn-danger">Acquista!</button>
     </div>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
